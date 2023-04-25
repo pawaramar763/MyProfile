@@ -2,58 +2,113 @@
 <html>
   <head>
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
       .career {
         color: cadetblue;
         background-color: lavender;
+        margin-bottom: 10px;
       }
       #angular {
-        color: cadetblue;
+        color: darkmagenta;
         font-size: large;
       }
       #listitem2 {
         color: cadetblue;
         background-color: aliceblue;
       }
+      #objective {
+        font-family: "Roboto Slab", serif;
+        margin-bottom: 20px;
+        padding-left: 35px;
+      }
+      #list {
+        list-style-type: circle;
+        font-family: "Roboto Slab", serif;
+        margin-left: 30px;
+        padding-left: 20px;
+      }
+      .space {
+        margin-bottom: 20px;
+      }
+      .bulletSpace {
+        margin-left: 10px;
+      }
     </style>
   </head>
   <body>
     <h2 class="career">Career Objectives</h2>
-    <p>
-      &nbsp; &nbsp; &nbsp; To work in an organization where i can learn and grow
-      my skills and help organizational growth
+    <p id="objective">
+      To work in an organization where i can learn and grow my skills and help
+      organizational growth
     </p>
     <h2 class="career">Professional Summary</h2>
-    <ul type="square">
-      <li>
-        Having 1 years of experience in devloping Single page Web Application
-        using <span id="angular">Angular 8</span>, HTML5, CSS3, BootStrap,
-        JavaScript, TypeScript
+    <ul id="list">
+      <li class="space">
+        <span class="bulletSpace"
+          >Having 1 years of experience in devloping Single page Web Application
+          using <span id="angular">Angular 8</span>, HTML5, CSS3, BootStrap,
+          JavaScript, TypeScript</span
+        >
       </li>
-      <br />
-      <li id="listitem2">
-        Experience on working with version control system - GIT andGitHub
+
+      <li id="listitem2" class="space">
+        <span class="bulletSpace">
+          Experience on working with version control system - GIT
+          andGitHub</span
+        >
       </li>
-      <br />
-      <li>Experience working with JIRA for user stories and bug tracking</li>
-      <br />
-      <li>
-        Strong Debugging & Troubleshooting code experience using Chrome
-        Developer Tool
+
+      <li class="space">
+        <span class="bulletSpace"
+          >Experience working with JIRA for user stories and bug tracking</span
+        >
       </li>
-      <br />
-      <li>Working exposure on ID's like VS Code and Notepad++</li>
-      <br />
-      <li>Good working experience under Agile methodologies environment</li>
-      <br />
-      <li>
-        Experience in using Chrome Developer Tool for debugging and
-        Troubleshooting the code
+
+      <li class="space">
+        <span class="bulletSpace">
+          Strong Debugging & Troubleshooting code experience using Chrome
+          Developer Tool</span
+        >
       </li>
-      <br />
-      <li>Knowledge of NodeJs</li>
-      <br />
-      <li>Ability to work with people at all levels in the program</li>
+
+      <li class="space">
+        <span class="bulletSpace"
+          >Working exposure on ID's like VS Code and Notepad++</span
+        >
+      </li>
+
+      <li class="space">
+        <span class="bulletSpace"
+          >Good working experience under Agile methodologies environment</span
+        >
+      </li>
+
+      <li class="space">
+        <span class="bulletSpace"
+          >Experience in using Chrome Developer Tool for debugging and
+          Troubleshooting the code</span
+        >
+      </li>
+
+      <li class="space">
+        <span class="bulletSpace">Knowledge of NodeJs</span>
+      </li>
+
+      <li class="space">
+        <span class="bulletSpace"
+          >Ability to work with people at all levels in the program</span
+        >
+      </li>
     </ul>
   </body>
 </html>

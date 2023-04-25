@@ -2,10 +2,64 @@
 <html>
   <head>
     <title>Index Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
       header {
         color: maroon;
         background-color: tan;
+        font-family: "Sriracha", cursive;
+        border: 2px solid grey;
+        border-radius: 20px;
+        margin-left: 10px;
+        width: 1060px;
+      }
+      #contactLogo {
+        padding-left: 20px;
+      }
+      #name {
+        margin-right: 30px;
+      }
+      #number {
+        margin-right: 30px;
+      }
+      .linkSpace {
+        margin-right: 50px;
+        text-transform: uppercase;
+        border: 3px solid blue;
+        border-radius: 5px;
+        background-color: darkgray;
+        margin-left: 55px;
+      }
+      .iconSpace {
+        margin-right: 30px;
+        color: darkslategrey;
+        font-size: x-large;
+      }
+      #followMe {
+        margin-right: 30px;
+        margin-left: 20px;
+        border: 1px solid greenyellow;
+        border-radius: 10px;
+        background-color: lightsteelblue;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: x-large;
+        color: crimson;
+      }
+      #frameStyle {
+        border: 3px solid lightcoral;
+        border-radius: 10px;
+        background-color: #fad390;
+        margin-left: 10px;
       }
     </style>
     <!-- CDN Link -->
@@ -15,54 +69,66 @@
     />
   </head>
   <body>
-    <header>
-      <i class="fa fa-user-circle" aria-hidden="true"></i>
-      <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+    <header id="font">
+      <i class="fa fa-user-circle" aria-hidden="true" id="contactLogo"></i>
+      <span id="name">Mohit Sharma</span>
       <i class="fa fa-phone-square" aria-hidden="true"></i>
-      <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
+      <span id="number">8600 2222 50</span>
       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      <span> gajanan.kharat@gmail.com </span>
+      <span>gajanan.kharat@gmail.com</span>
     </header>
     <br />
 
     <nav>
-      <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-      <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp;
-      &nbsp; <a href="education.html" target="frame"> EDUCATION </a> &nbsp;
-      &nbsp; &nbsp; <a href="personal.html" target="frame"> PERSONAL </a> &nbsp;
-      &nbsp; &nbsp;
-      <a href="contactus.html" target="frame"> CONTACT ME </a>
+      <a class="linkSpace" href="home.html" target="frame">HOME</a>
+      <a class="linkSpace" href="techStack.html" target="frame"
+        >TECHNOLOGY STACK</a
+      >
+      <a class="linkSpace" href="education.html" target="frame"> education </a>
+      <a class="linkSpace" href="personal.html" target="frame"> personal </a>
+      <a class="linkSpace" href="contactus.html" target="frame"> CONTACT ME </a>
     </nav>
 
     <br />
     <br />
-    <iframe width="1050px" height="550px" name="frame" src="home.html">
+    <iframe
+      id="frameStyle"
+      width="1050px"
+      height="550px"
+      name="frame"
+      src="home.html"
+    >
     </iframe>
 
     <br />
     <br />
-    <span> Follow me </span> &nbsp; &nbsp;
-    <a href="https://in.linkedin.com/" target="_blank"
+    <span id="followMe"> Follow me </span>
+    <a class="iconSpace" href="https://in.linkedin.com/" target="_blank"
       ><i class="fa fa-linkedin-square" aria-hidden="true"></i
     ></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.instagram.com/" target="_blank"
+
+    <a
+      class="iconSpace"
+      href="https://www.instagram.com/"
+      target="_blank"
+      href="https://www.instagram.com/"
+      target="_blank"
       ><i class="fa fa-instagram" aria-hidden="true"></i
     ></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.facebook.com/" target="_blank"
+
+    <a class="iconSpace" href="https://www.facebook.com/" target="_blank"
       ><i class="fa fa-facebook-square" aria-hidden="true"></i
     ></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.google.com/" target="_blank"
+
+    <a class="iconSpace" href="https://www.google.com/" target="_blank"
       ><i class="fa fa-google" aria-hidden="true"></i
     ></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.youtube.com/" target="_blank"
+
+    <a class="iconSpace" href="https://www.youtube.com/" target="_blank"
       ><i class="fa fa-youtube" aria-hidden="true"></i
     ></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.whatsapp.com/" target="_blank"
+
+    <a class="iconSpace" href="https://www.whatsapp.com/" target="_blank"
       ><i class="fa fa-whatsapp" aria-hidden="true"></i
     ></a>
   </body>
