@@ -12,32 +12,46 @@
       * {
         margin: 0px;
         padding: 0px;
+        background-color: #ED8F03;
       }
-      header {
+      header{
         color: maroon;
         background-color: tan;
         font-family: "Sriracha", cursive;
-        border: 2px solid grey;
         border-radius: 20px;
         margin-left: 10px;
-        width: 1060px;
+        margin-top: 10px;
+        margin-right: 20px;
       }
-      #contactLogo {
+      #contactLogo,#phoneLogo,#mailLogo {
         padding-left: 20px;
+        background-color: tan;
       }
       #name {
         margin-right: 30px;
+        background-color: tan;
       }
       #number {
         margin-right: 30px;
+        background-color: tan;
       }
+      #gmail{
+        background-color: tan;
+      }
+     
       .linkSpace {
         margin-right: 50px;
         text-transform: uppercase;
-        border: 3px solid blue;
-        border-radius: 5px;
         background-color: darkgray;
         margin-left: 55px;
+      }
+      #forAll{
+        background-color: darkgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 5px;
       }
       .iconSpace {
         margin-right: 30px;
@@ -47,7 +61,6 @@
       #followMe {
         margin-right: 30px;
         margin-left: 20px;
-        border: 1px solid greenyellow;
         border-radius: 10px;
         background-color: lightsteelblue;
         font-family: monospace;
@@ -56,7 +69,6 @@
         color: crimson;
       }
       #frameStyle {
-        border: 3px solid lightcoral;
         border-radius: 10px;
         background-color: #fad390;
         margin-left: 10px;
@@ -70,23 +82,24 @@
   </head>
   <body>
     <header id="font">
-      <i class="fa fa-user-circle" aria-hidden="true" id="contactLogo"></i>
+      <i class="fa fa-user-circle" aria-hidden="true" id="contactLogo"></i></span>
       <span id="name">Mohit Sharma</span>
-      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <i class="fa fa-phone-square" aria-hidden="true" id="phoneLogo"></i></span>
       <span id="number">8600 2222 50</span>
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      <span>gajanan.kharat@gmail.com</span>
+      <i class="fa fa-envelope-o" aria-hidden="true" id="mailLogo"></i></span>
+      <span id="gmail">gajanan.kharat@gmail.com</span>
     </header>
     <br />
 
     <nav>
-      <a class="linkSpace" href="home.html" target="frame">HOME</a>
+      
+      <h3 id="forAll"><a class="linkSpace" href="home.html" target="frame">HOME</a>
       <a class="linkSpace" href="techStack.html" target="frame"
         >TECHNOLOGY STACK</a
       >
       <a class="linkSpace" href="education.html" target="frame"> education </a>
       <a class="linkSpace" href="personal.html" target="frame"> personal </a>
-      <a class="linkSpace" href="contactus.html" target="frame"> CONTACT ME </a>
+      <a class="linkSpace" href="contactus.html" target="frame"> CONTACT ME </a></h3>
     </nav>
 
     <br />
